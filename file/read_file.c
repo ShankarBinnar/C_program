@@ -13,7 +13,7 @@ int main () {
    	printf("shankar\n");
    fputs("This is c programming.", fp);
    fputs("This is a system programming language.", fp);
-
+printf("file_close\n");
    fclose(fp);
    fp=fopen("file.txt","r+");
 
